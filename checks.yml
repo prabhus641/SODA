@@ -1,5 +1,5 @@
-checks for CITY:
-  - duplicate_count(NAME, CODE):
-      name: Duplicate_MT
-      identity: 4f44b5af-fe9d-4166-89d4-39d292868e62
+checks for CUSTOMER:
+  - duplicate_count(C_CUSTOMER_ID):
+      name: duplicate
+      identity: ff368a9d-223f-4ca8-a556-ead622c01794
       fail: when > 0
