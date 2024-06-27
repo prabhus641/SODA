@@ -18,6 +18,6 @@ jobs:
           SNOWFLAKE_PASSWORD: Sastika@2023
         with:
           soda_library_version: v1.5.5
-          data_source: snowflake
+          data_source: snowflake_api_marts
           configuration: ./configuration.yml
           checks: ./checks.yml
