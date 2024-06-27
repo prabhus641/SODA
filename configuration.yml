@@ -4,10 +4,10 @@ data_source:
   host: soda-demo
   username: prabhus
   password: Sastika@2023
-  database: SNOWFLAKE_SAMPLE_DATA
-  schema: TPCDS_SF100TCL
+  database: MUKESH_TEST
+  schema: MK_TESTING
 # Refer to https://go.soda.io/api-keys
 soda_cloud:
   host: cloud.us.soda.io
-  api_key_id: bb23ac77-4d3a-4ea3-86f8-238234ae7aea
-  api_key_secret: k0Rxa_UFD9VK8C6rpttMje4faCxv_WfxqELnZHDp5X8xAMAsW7OGsg
+  api_key_id: 09d9faee-103e-487f-a4da-bd917484dfe5
+  api_key_secret: 5uuqxrQUuPU6yQg0ArpYtB8kHB_o5EXVvDuWbiEh0P6F9MHa6aZnWA
