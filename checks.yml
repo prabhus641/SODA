@@ -1,4 +1,5 @@
-# checks.yml file
-checks for retail_orders:
-  - row_count > 0
-  - missing_count(order_quantity) < 3
+checks for CITY:
+  - duplicate_count(NAME, CODE):
+      name: Duplicate_MT
+      identity: 4f44b5af-fe9d-4166-89d4-39d292868e62
+      fail: when > 0
