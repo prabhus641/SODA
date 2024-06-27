@@ -1,11 +1,11 @@
 # configuration.yml file
-data_source aws_postgres_retail:
+data_source:
   type: snowflake
   host: soda-demo
   username: prabhus
   password: Sastika@2023
-  database: snowflake
-  schema: mk_testing
+  database: SNOWFLAKE_SAMPLE_DATA
+  schema: TPCDS_SF100TCL
 # Refer to https://go.soda.io/api-keys
 soda_cloud:
   host: cloud.us.soda.io
