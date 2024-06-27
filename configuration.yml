@@ -1,13 +1,17 @@
-# configuration.yml file
-data_source:
-  type: snowflake
-  host: soda-demo
-  username: prabhus
-  password: Sastika@2023
-  database: MUKESH_TEST
-  schema: MK_TESTING
-# Refer to https://go.soda.io/api-keys
-soda_cloud:
-  host: cloud.us.soda.io
-  api_key_id: 09d9faee-103e-487f-a4da-bd917484dfe5
-  api_key_secret: 5uuqxrQUuPU6yQg0ArpYtB8kHB_o5EXVvDuWbiEh0P6F9MHa6aZnWA
+data_source my_datasource_name:
+     type: snowflake
+     username: prabhus
+     password: Sastika@2023
+     account:  ae79347.central-india.azure.snowflakecomputing.com
+     database: MUKESH_TEST
+     warehouse: compute_wh
+     role: analyst
+     session_parameters:
+       QUERY_TAG: soda-queries
+       QUOTED_IDENTIFIERS_IGNORE_CASE: false
+     schema: public
+      
+   soda_cloud:
+     host: cloud.us.soda.io
+     api_key_id: 09d9faee-103e-487f-a4da-bd917484dfe5
+     api_key_secret: 5uuqxrQUuPU6yQg0ArpYtB8kHB_o5EXVvDuWbiEh0P6F9MHa6aZnWA
