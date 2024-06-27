@@ -19,5 +19,5 @@ jobs:
         with:
           soda_library_version: v1.5.5
           data_source: snowflake
-          configuration: ./configuration.yaml
+          configuration: ./configuration.yml
           checks: ./checks.yaml
