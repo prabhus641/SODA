@@ -1,3 +1,4 @@
-checks for MUKESH_ENTERPRISES:
-  - row_count > 0
-  - missing_count(order_quantity) < 3
+checks for CUSTOMER:
+  - row_count:
+      name: count_check
+      fail: when = 0 < 3
