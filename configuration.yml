@@ -1,17 +1,15 @@
-data_source my_datasource_name:
-     type: snowflake
-     username: prabhus
-     password: Sastika@2023
-     account:  ae79347.central-india.azure.snowflakecomputing.com
-     database: MUKESH_TEST
-     warehouse: compute_wh
-     role: analyst
-     session_parameters:
-       QUERY_TAG: soda-queries
-       QUOTED_IDENTIFIERS_IGNORE_CASE: false
-     schema: public
-      
-   soda_cloud:
-     host: cloud.us.soda.io
-     api_key_id: 09d9faee-103e-487f-a4da-bd917484dfe5
-     api_key_secret: 5uuqxrQUuPU6yQg0ArpYtB8kHB_o5EXVvDuWbiEh0P6F9MHa6aZnWA
+data_source dbsource:  
+    type: snowflake
+    account: cl31586.central-india.azure
+    username: prabhus
+    password: Sastika@2023
+    role: accountadmin
+    database: SNOWFLAKE_SAMPLE_DATA
+    warehouse: compute_wh
+    schema: TPCH_SF10
+    threads: 10
+    client_session_keep_alive: False
+soda_cloud:
+  host: cloud.soda.io
+  api_key_id: 782cfa87-e03b-442c-bff7-bfd85be0d7cf
+  api_key_secret: 2L7gPUXOw8MmW66D8Yi0T5bZXNP-IjRpRyMG9nNP_lE3-IgO3gKvww 
